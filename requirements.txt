@@ -5,3 +5,5 @@ torchmetrics
 matplotlib
 numpy
 jupyter
+scikit-learn
+seaborn
