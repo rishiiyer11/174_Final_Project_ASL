@@ -7,3 +7,4 @@ numpy
 jupyter
 scikit-learn
 seaborn
+pandas
