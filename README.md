@@ -1,4 +1,4 @@
-ECS 174 Project for Prof. Hamed, Computer Vision
+# ECS 174 Project for Prof. Hamed, Computer Vision
 
 Project based around the analysis and training of models in regards to ASL translation tasks,
  specificially alphanumeric translation.
@@ -6,14 +6,16 @@ Project based around the analysis and training of models in regards to ASL trans
 Dataset: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 # Install Packages
-`
+```python
 ./setup_env.sh
 source venv/bin/activate
-`
+```
 
 # Train Model
 Runs train.ipynb jupyter notebook and saves results to train_output.ipynb. Used to automate training and testing on GPU.
-`./run_notebook.sh`
+```python
+./run_notebook.sh
+```
 
 # Notebook Details
 `table.ipynb` - Script to generate table of F1, Precision, and Recall scores for all runs
